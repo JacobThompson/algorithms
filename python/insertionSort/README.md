@@ -7,3 +7,20 @@ To run tests, run the following command:
 ```
 python3 insertionSort.test.py
 ```
+
+To run via CLI, run the following command:
+
+```
+python3 insertionSort.py {arguments to sort}
+```
+
+Example:
+
+```
+python3 insertionSort.py 3 2 1
+```
+
+Result:
+```
+['1', '2', '3']
+```
