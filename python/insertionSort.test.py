@@ -15,6 +15,12 @@ class InsertionSortTest(unittest.TestCase):
     def test6(self):
         self.assertEqual(insertionSort(['b', 'a', 'c', 'k']), ['a', 'b', 'c', 'k'])
     def test7(self):
-        self.assertEqual(
+        self.assertEqual(insertionSort([]), [])
+    def test8(self):
+        self.assertEqual(insertionSort([[]]), [[]])
+    def test9(self):
+        self.assertEqual(insertionSort([[2], [1]]), [[1], [2]])
+    def test10(self):
+        self.assertEqual(insertionSort(['quaker', 'shake', 'import', 'new', 'news', 'lettuce', 'apple', 'hamburger']), ['apple', 'hamburger', 'import', 'lettuce', 'new', 'news', 'quaker', 'shake'])
 
 unittest.main()
