@@ -22,13 +22,10 @@ export default function insertionSort(arr) {
 
 function main() {
 	let toSort = [];
-	if(Deno.args.length == 0) {
-		console.error("Please provide 1 or more arguments to sort");
-		Deno.exit();
-	}
 	for(const a of Deno.args) {
 		toSort.push(a);	
 	}
+	if(toSort.length == 0) return;
 	console.log(insertionSort(toSort));
 }
 
