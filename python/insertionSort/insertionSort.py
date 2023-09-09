@@ -1,3 +1,5 @@
+import sys
+
 def swap(swapList, a, b):
     tmp = swapList[a]
     swapList[a] = swapList[b]
@@ -14,3 +16,5 @@ def insertionSort(listToSort):
         i = i + 1
     return listToSort
 
+if __name__ == "__main__":
+    print(insertionSort(sys.argv[1:]))
