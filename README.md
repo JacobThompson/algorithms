@@ -1,2 +1,3 @@
 # Algorithms
-Various Algorithms in different programming languages that I know
+
+A demonstration of various algorithms in different languages.
