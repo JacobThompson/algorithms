@@ -19,14 +19,3 @@ void insertionSort(int * array, int arrayLength) {
 	}
 }
 
-#ifndef TEST
-int main(int argc, char * argv[]) {
-	int i[7] = {8, 6, 7, 5, 3, 0, 9};
-	insertionSort(i, 7);
-
-	for(int l = 0 ; l < 7; l++) {
-		printf("%d", i[l]);	
-	}
-	return 0;	
-}
-#endif

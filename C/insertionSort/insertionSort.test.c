@@ -1,9 +1,7 @@
+#define TEST
 #include <assert.h>
 #include "insertionSort.h"
 
-#ifndef TEST
-#define TEST
-#endif
 
 //Returns 1 on array lengths not equal
 //Returns -1 if array values are not equal
@@ -36,5 +34,4 @@ int main() {
 	assert(compare_arrays(testA, 2, correctA, 2) == 0);
 	assert(compare_arrays(testB, 2, correctB, 2) == 0);
 	assert(compare_arrays(testC, 2, correctC, 2) == 0);
-	
 }
