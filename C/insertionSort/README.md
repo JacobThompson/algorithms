@@ -1,4 +1,4 @@
-#Insertion Sort implementation in C.
+# Insertion Sort implementation in C.
 
 This is an implementation of insertion sort in c. It depends on GCC and Make to compile.
 
