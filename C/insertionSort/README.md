@@ -12,6 +12,26 @@ To build in CLI mode run the following command within the insertionSort folder:
 make
 ```
 
+And then to sort command line arguments, run the following:
+
+```
+./insertionSort {arguments to sort}
+```
+
+Example: 
+
+```
+./insertionSort 8 6 7 5 3 0 9
+```
+
+Result:
+
+```
+{0, 3, 5, 6, 7, 8, 9}
+```
+
+Please note that only integers are supported at this time. Input of non integers will result in undefined behavior!
+
 To build a test binary and run tests, run the following commands within the insertionSort folder:
 
 ```
