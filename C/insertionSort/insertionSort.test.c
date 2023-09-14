@@ -55,5 +55,20 @@ int main() {
 	insertionSort(testG, 5);
 	assert(compare_arrays(testG, 5, correctG, 5) == 0);
 
-	printf("6 tests passed.\n");
+	int testH[5] = {8, 8, 8, 7, 8};
+	int correctH[5] = {7, 8, 8, 8, 8};
+	insertionSort(testH, 5);
+	assert(compare_arrays(testH, 5, correctH, 5) == 0);
+
+	int testI[1] = {0};
+	int correctI[1] = {0};
+	insertionSort(testI, 1);
+	assert(compare_arrays(testI, 1, correctI, 1) == 0);
+
+	int testJ[10] = {-6, 3, 3, 40, -40, 10, 23, 40, 11, 9};
+	int correctJ[10] = {-40, -6, 3, 3, 9, 10, 11, 23, 40, 40};
+	insertionSort(testJ, 10);
+	assert(compare_arrays(testJ, 10, correctJ, 10) == 0);
+
+	printf("10 tests passed.\n");
 }
