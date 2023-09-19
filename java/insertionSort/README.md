@@ -1,9 +1,12 @@
 # Implementation of insertion sort in Java.
 
-To compile and run:
+This is an implementation of insertionSort in java, with unit testing.
+
+This demonstration relies on Gradle
+
+To compile, test, and run:
 ```
-javac insertionSort.java
-java insertionSort
+./gradlew run
 ```
 
 Tested on OpenJDK 19
