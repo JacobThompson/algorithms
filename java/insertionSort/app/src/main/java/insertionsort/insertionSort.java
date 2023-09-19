@@ -1,28 +1,30 @@
+package javaAlgorithms;
+
 import java.util.Arrays;
 
+
 class insertionSort {
-	public static int[] swap(int[] array, int a, int b) {
+	public static void swap(int[] array, int a, int b) {
 		int tmp = array[a];
 		array[a] = array[b];
 		array[b] = tmp;
-		return array;
 	}
 
-	public static int[] insertionSortInt(int[] array) {
+	public static void insertionSortInt(int[] array) {
 		int i = 1;
 		while(i < array.length) {
 			int j = i;
 			while(j > 0 && array[j-1] > array[j]) {
-				array = swap(array, j, j-1);
+				swap(array, j, j-1);
+				j--;
 			}
 			i++;
 		}
-		return array;
 	}
 
 	public static void main(String[] args) {
-		int[] a = {2, 1};
-		int[] aSorted = insertionSortInt(a);
-		System.out.println(Arrays.toString(aSorted));
+		int[] a = {3, 2, 1, 0};
+		insertionSortInt(a);
+		System.out.println(Arrays.toString(a));
 	}
 }
