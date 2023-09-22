@@ -1,0 +1,19 @@
+{
+    "name": "jacobt/php",
+    "description": "Insertion Sort in PHP",
+    "type": "project",
+    "license": "GPL 2.0",
+    "autoload": {
+        "psr-4": {
+            "Jacobt\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jacob Thompson"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
