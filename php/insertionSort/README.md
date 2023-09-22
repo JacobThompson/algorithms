@@ -22,4 +22,4 @@ Result:
 2 4 5 8
 ```
 
-Note: this was tested on MacOS 13.5.2 with PHP 8.0 
+Note: this was tested on MacOS 13.5.2 with PHP 8.0.30 
