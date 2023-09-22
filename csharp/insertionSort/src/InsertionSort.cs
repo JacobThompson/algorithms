@@ -2,7 +2,7 @@
 using System;
 
 public class InsertionSort {
-	private static void Swap(double[] array, int a, int b) {
+	private void Swap(double[] array, int a, int b) {
 		double temp = array[a];
 		array[a] = array[b];
 		array[b] = temp;
