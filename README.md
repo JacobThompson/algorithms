@@ -8,6 +8,6 @@ There are currently the following languages in this project:
 - C
 - Java
 - JavaScript
-- InsertionSort
+- Python 
 - PHP
 - C#
