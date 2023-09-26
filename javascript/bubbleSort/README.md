@@ -1,4 +1,4 @@
-# Insertion Sort in JavaScript with a Deno runtime.
+# Bubble Sort in JavaScript with a Deno runtime.
 
 To run this, you will need [Deno](https://deno.land/).
 
